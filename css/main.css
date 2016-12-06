@@ -80,6 +80,19 @@ figcaption {
   padding: 1.3rem 0;
 }
 
+h2 {
+  color: #815e25;
+}
+
+main {
+  background-color: #442f0d;
+}
+
+.cards {
+  list-style-type: none;
+  background-color: #977740;
+}
+
 @media only screen and (min-width: 25em) {
 
   nav li {
