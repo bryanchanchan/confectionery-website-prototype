@@ -124,6 +124,66 @@ main {
   padding-bottom: .5rem;
 }
 
+.coco-left,
+.coco-right {
+  width: 120px;
+  margin-bottom: 1rem;
+}
+
+.coco-left {
+  float: left;
+}
+
+.coco-right {
+  float: right;
+}
+
+.graphic {
+  margin-top: 1rem;
+  margin-left: .5rem;
+  margin-right: .5rem;
+}
+
+.chocolates {
+  margin: 0;
+  margin-bottom: 1rem;
+  color: #916b49;
+  font-size: 2rem;
+}
+
+.coco-contents {
+  padding-right: 1.5rem;
+}
+
+.content-body {
+  margin-left: .5rem;
+}
+
+.btn-wrap {
+  background-color: #442f0d;
+  border-radius: 8px;
+  border: 3px solid #a7886d;
+  display: inline-block;
+  padding: .5rem;
+  margin-left: .3rem;
+  margin-top: 1rem;
+
+}
+
+.btn-ghost {
+  list-style-type: none;
+  text-decoration: none;
+  color: #916b49;
+}
+
+.btn-wrap:hover {
+  background-color: #a7886d;
+}
+
+.btn-ghost:hover {
+  color: #fff;
+}
+
 @media only screen and (min-width: 25em) {
 
   nav li {
@@ -161,6 +221,15 @@ main {
     padding: 0;
     margin-bottom: 0;
     margin-top: 0;
+  }
+
+  .content-body {
+    margin-top: 10rem;
+  }
+
+  .coco-left,
+  .coco-right {
+    width: 160px;
   }
 }
 
@@ -217,6 +286,15 @@ main {
     padding-bottom: 15rem;
     position: relative;
   }
+
+  .content-body {
+    margin-top: 15rem;
+  }
+
+  .coco-left,
+  .coco-right {
+    width: 250px;
+  }
 }
 
 @media only screen and (min-width: 60em) {
@@ -238,6 +316,15 @@ main {
 
   nav li {
     width: auto;
+  }
+
+  .content-body {
+    margin-top: 22rem;
+  }
+
+  .coco-left,
+  .coco-right {
+    width: 350px;
   }
 }
 
