@@ -315,10 +315,6 @@ footer {
   .coco-right {
     width: 250px;
   }
-
-  .people{
-    margin-left: 9.5rem;
-  }
 }
 
 @media only screen and (min-width: 60em) {
@@ -350,11 +346,6 @@ footer {
   .coco-right {
     width: 350px;
   }
-
-  .people {
-    margin-left: 18rem;
-  }
-
 }
 
 @media only screen and (min-with: 90em) {
